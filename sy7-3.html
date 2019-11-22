@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy7-3</title>
+	<style>
+		body{
+			background: url("images/bg.jpg")no-repeat top center;
+			padding: 50px 0 0 430px;
+		}
+		form{
+			width:248px;
+			height:220px;
+			background-color: #333;
+			padding: 30px 40px;
+			border:1px solid #600;
+		}
+		input{
+			display:block;
+		}
+		[type="text"],[type="password"]{
+			width:250px;
+			height:38px;
+			border:1px solid #ccc;
+			margin-bottom: 30px;
+			font-size: 16px;
+			text-indent:50px;
+		}
+		[type="text"]{
+			background: url("images/zhanghao.jpg")no-repeat 0 -2px;
+		}
+		[type="password"]{
+			background: url("images/mima.jpg")no-repeat 0 -2px;
+		}
+		[type="checkbox"]{
+			display: inline;
+			vertical-align: middle;
+		}
+		lable{
+			font-size: 12px;
+		}
+		.reg{
+			text-align: center;
+			font-size: 12px;
+			margin-top: -18px;
+		}
+		.reg a {
+			text-decoration:none;
+			color:#FFF;
+			}
+		.reg a:hover{
+			color: #f00;
+			text-decoration: underline;
+		}
+		[type="submit"]{
+			width:100px;
+			height:20px;
+			margin: 10px auto;
+			border:none;
+		}
+		.related{
+			width:330px;
+			height:100px;
+			background-color:#333;
+			border-top: 1px solid #600;
+			padding-top: 20px #600;
+			text-align: center;
+			font-size:14px;
+		}
+		.s{
+			height:42px;
+			width:211px;
+		}
+	</style>
+</head>
+
+<body>
+<div class="s">
+	<img src="images/school.png"align="left">
+    </div>
+	<form action="#" method="post" name="form">
+	  <p>
+	    <input type="text" name="user" placeholder="账号">
+	    <input type="password" placeholder="密码">
+	    <input type="checkbox" name="account" value="1" id="account1">
+         <lable for="account1">用户</lable>
+	    <input type="checkbox" name="account" value="1" id="account2">
+	    <lable for="account2">访客</lable>
+      </p>
+        </form>
+        <div class="related">
+		<div class="reg">
+		<a href="#" >未曾注册？</a>
+		<a href="#">忘记密码？</a>
+		</div>
+		<input type="submit" name="submit">
+	</form>
+        其他登录方式:
+		<a href="#"><img src="images/weixin.png" alt=""></a>
+		<a href="#"><img src="images/qqlogin.png" alt=""></a>
+	</div>
+</body>
+</html>
